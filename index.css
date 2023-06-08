@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+#block {
+  height: 500px;
+  width: 700px;
+  margin: 32px auto;
+  border: 2px solid black;
+  position: relative;
+  display: none;
+  background-color: cadetblue;
+}
+
+#ball {
+  height: 70px;
+  width: 70px;
+  background-color: aquamarine;
+  display: inline-block;
+}
+
+#ball img {
+  height: 120%;
+  width: 110%;
+  transform: scale(1.2);
+}
+
+#exit {
+  height: 80px;
+  width: 80px;
+  border: 2px solid green;
+  display: inline-block;
+  position: absolute;
+}
+
+#startGame-btn {
+  display: block;
+  margin: 50px auto;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  background: transparent;
+  border: 5px solid black;
+}
+
+#start img {
+  height: 250px;
+  margin: 50px auto;
+  display: block;
+}
+
+#controls {
+  height: 350px;
+  width: 270px;
+  /* border: 2px solid red; */
+  position: fixed;
+  color: black;
+  left: 0px;
+  top: 80px;
+  background-color: darkgrey;
+  border-radius: 55px;
+}
+
+#controls h1 {
+  display: inline-block;
+  margin: 5px 65px;
+}
+
+#keys {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#keys h3 {
+  margin-top: 10px;
+}
+
+#restart {
+  display: none;
+  padding-left: 35px;
+  padding-top: 45px;
+}
+
+#restart-btn {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  background: transparent;
+  border: 5px solid black;
+  outline: none;
+}
